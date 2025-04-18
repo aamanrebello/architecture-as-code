@@ -16,14 +16,14 @@
     <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <surefire-plugin.version>3.5.2</surefire-plugin.version>
+    <surefire-plugin.version>3.5.3</surefire-plugin.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-text</artifactId>
-      <version>1.13.0</version>
+      <version>1.13.1</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -186,7 +186,7 @@
       <plugin>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.8.12</version>
+      <version>0.8.13</version>
         <configuration>
         <excludes>
           <exclude>**/*Builder.*</exclude>
@@ -269,7 +269,7 @@
         <dependency>
           <groupId>com.github.dasniko</groupId>
           <artifactId>testcontainers-keycloak</artifactId>
-          <version>3.6.0</version>
+          <version>3.7.0</version>
           <scope>test</scope>
         </dependency>
       </dependencies>
